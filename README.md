@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Modern Developer Portfolio
 
-## Getting Started
+An interactive, clean, and fully responsive personal developer portfolio website designed with a modern dark theme to showcase projects, technical competencies, educational qualifications, and direct communication channels.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Responsive Hero & Bio Presentation:** Displays professional designation, intro, profile picture, social channels, and a one-click resume download button.
+- **Project Showcase & Dynamic Details Modal:** Features key projects in card formats with deep-dive modals highlighting tech stacks, solved development challenges, and future milestones.
+- **Categorized Skills Presentation:** Neatly organized graphical views covering Frontend, Backend, Databases, and Core Development Tools.
+- **Direct Web3Forms Contact Integration:** Interactive contact channel connected with live email forwarding alongside direct Email, Phone, and WhatsApp links.
+- **Fully Responsive Architecture:** Optimized for standard desktop views, tablets, and mobile viewports with seamless sticky navigation.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Built With
 
-## Learn More
+- **Framework:** Next.js (App Router)
+- **Library:** React.js
+- **Styling:** Tailwind CSS & DaisyUI
+- **Language:** TypeScript & JavaScript
+- **Integration:** Web3Forms API (Contact Submissions)
+- **Deployment Target:** Vercel
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+my-portfolio-app/
+├── app/
+│   ├── components/
+│   │   ├── AboutMe.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Education.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Projects.jsx
+│   │   └── Skills.jsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── data/
+│   └── projects.ts
+├── public/
+│   ├── profile.jpg
+│   └── resume.pdf
+├── next.config.ts
+├── package.json
+└── README.md
