@@ -27,6 +27,8 @@ An interactive, clean, and fully responsive personal developer portfolio website
 
 ## 📁 Project Structure
 
+## 📁 Project Structure
+
 ```text
 my-portfolio-app/
 ├── app/
@@ -50,6 +52,7 @@ my-portfolio-app/
 ├── next.config.ts
 ├── package.json
 └── README.md
+```
 
 ---
 
@@ -57,4 +60,29 @@ my-portfolio-app/
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Ahbab2006/my-portfolio-app.git](https://github.com/Ahbab2006/my-portfolio-app.git)
+   git clone https://github.com/Ahbab2006/my-portfolio-app.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd my-portfolio-app
+   ```
+
+3. **Install project dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Run the local development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open in browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000) to view the live build.
+
+---
+
+## 📄 License & Attribution
+
+Distributed under the MIT License. Developed with care by **Md. Ahbab Hussain Arabi**.
