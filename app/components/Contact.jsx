@@ -68,7 +68,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://wa.me/8801700000000"
+            href="https://wa.me/880 1789-501574"
             target="_blank"
             rel="noopener noreferrer"
             className="p-5 bg-[#0B0F19] border border-gray-800 rounded-xl text-center hover:border-amber-400/50 transition block"
